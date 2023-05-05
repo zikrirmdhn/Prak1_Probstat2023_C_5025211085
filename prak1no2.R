@@ -5,7 +5,9 @@ l <- 1.8
 Dist <- dpois(0:20, l)
 print(Dist)
 
-#B. Probabilitas 4 kematian akibat kanker tulang
+#B. Probabilitas 4 kematian akibat kanker tulang, apakah tidak biasa?
+prob <- dpois(4, l)
+print(prob)
 
 #C. Probabilitas paling banyak 4 kematian akibat kanker tulang
 prob <- ppois(4, l)
